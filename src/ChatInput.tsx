@@ -153,6 +153,8 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSend, disabled = false }) => {
     }
   };
 
+  console.log("stash 2")
+
   return (
     <div className="chat-input-container">
       <input
